@@ -1,0 +1,48 @@
+{
+  "name": "trpc-zod-example",
+  "version": "1.0.0",
+  "description": "Showcasing patterns for tRPC and Zod",
+  "main": "index.js",
+  "scripts": {
+    "backend": "nodemon vite-server.ts",
+    "frontend": "vite -c ./vite.config.ts -l info"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "@tanstack/react-query": "^4.29.15",
+    "@trpc/client": "^10.45.2",
+    "@trpc/react-query": "^10.45.2",
+    "@trpc/server": "^10.45.2",
+    "@typescript-eslint/eslint-plugin": "^7.7.1",
+    "@typescript-eslint/parser": "^7.7.1",
+    "@vitejs/plugin-react-swc": "^3.6.0",
+    "cors": "^2.8.5",
+    "eslint": "^8.57.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-import-resolver-vite": "^2.0.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react": "^7.34.1",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.0",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5",
+    "vite": "^4.5.3",
+    "vite-plugin-eslint2": "^4.4.0",
+    "vite-plugin-node": "^3.1.0",
+    "vite-tsconfig-paths": "^4.3.2",
+    "zod": "^3.23.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "@types/react-router-dom": "^5.3.3"
+  }
+}

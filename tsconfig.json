@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "module": "CommonJS",
+    "importHelpers": true,
+    "declaration": false,
+    "outDir": "dist",
+    "rootDir": "./",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noErrorTruncation": true,
+    "noImplicitThis": true,
+    "skipLibCheck": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*"],
+      "types": ["shared.ts"],
+      "server/*": ["./server/*"],
+    },
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "downlevelIteration": true
+  },
+  "include": [
+    "server/**/*.ts",
+    "shared.ts",
+    "vite-server.ts"
+  ],
+  "exclude": [
+    "client",
+    "node_modules"
+  ]
+}
